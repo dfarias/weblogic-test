@@ -1,4 +1,4 @@
 # Weblogic
 
-oc new-app git@github.com:dfarias/weblogic-test.git --strategy=docker --name=weblogic
+oc new-app https://github.com/dfarias/weblogic-test.git --strategy=docker --name=weblogic
 
