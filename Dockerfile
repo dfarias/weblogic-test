@@ -19,7 +19,7 @@
 #
 #
 # FROM rhel7-weblogic-domain
-FROM weblogic:latest
+FROM 172.30.1.1:5000/claro/weblogic:latest
 MAINTAINER Claro LTDA
 
 # Define variables with default values
